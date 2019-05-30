@@ -1,0 +1,1601 @@
+
+html, body
+{
+	height: 100%;
+	width: 100%;
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	color: #000000;
+
+
+
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul
+{
+	margin-top: 0;
+}
+
+ol, ul
+{
+	padding: 0;
+	list-style: none;
+}
+
+p
+{
+	line-height: 180%;
+}
+
+strong
+{
+}
+
+a
+{
+	color: #CC0000;
+}
+
+a:hover
+{
+	text-decoration: none;
+}
+
+.container
+{
+	overflow: hidden;
+	margin: 0em auto;
+	width: 1000px;
+}
+
+
+
+
+
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+	.image
+{
+	display: inline-block;
+}
+
+.image img
+{
+	display: block;
+	width: 100%;
+}
+
+.image-full
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 2em 0;
+}
+
+.image-left
+{
+	float: left;
+	margin: 0 2em 2em 0;
+}
+
+.image-centered
+{
+	display: block;
+	margin: 0 0 2em 0;
+}
+
+.image-centered img
+{
+	margin: 0 auto;
+	width: auto;
+}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+{
+	margin: 0;
+	padding: 2em 0em 0em 0em;
+	list-style: none;
+}
+
+ul.contact li
+{
+	display: inline-block;
+	padding: 0em 0.30em;
+	font-size: 1em;
+}
+
+ul.contact li span
+{
+	display: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.contact li a
+{
+	color: #FFF;
+}
+
+ul.contact li a:before
+{
+	display: inline-block;
+	background: #3f3f3f;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+ul.contact li a.icon-twitter:before
+{
+	background: #2DAAE4;
+}
+
+ul.contact li a.icon-facebook:before
+{
+	background: #39599F;
+}
+
+ul.contact li a.icon-dribbble:before
+{
+	background: #C4376B;
+}
+
+ul.contact li a.icon-tumblr:before
+{
+	background: #31516A;
+}
+
+ul.contact li a.icon-rss:before
+{
+	background: #F2600B;
+}
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+{
+	display: inline-block;
+	padding: 1em 3em 1em 3em;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.90em;
+	color: #3E1952 ;
+
+}
+
+.button:before
+{
+	display: inline-block;
+	background: #FFC31F;
+	margin-right: 1em;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #3E1952 ;
+}
+
+/*********************************************************************************/
+/* 4-column                                                                      */
+/*********************************************************************************/
+
+	.box1,  .box2,  .box3,  .box4
+{
+	width: 235px;
+}
+ .box1,  .box2,  .box3, {
+ float: left;
+ margin-right: 20px;
+}
+
+.box4
+{
+	float: right;
+}
+
+/*********************************************************************************/
+/* 3-column                                                                      */
+/*********************************************************************************/
+
+	.boxA,  .boxB,  .boxC
+{
+	width: 300px;
+	padding-top: 50px;
+	display: inline-block;
+}
+
+.boxA,  .boxB
+{
+	float: left;
+	margin-right: 50px;
+}
+
+.boxC
+{
+	
+}
+
+.boxContact
+{
+	text-align: center;
+	padding-top: 25px;
+}
+
+/*********************************************************************************/
+/* 2-column                                                                      */
+/*********************************************************************************/
+
+	.tbox1,  .tbox2
+{
+	width: 575px;
+}
+
+.tbox1
+{
+	float: left;
+}
+
+.tbox2
+{
+	float: right;
+}
+
+#wrapper
+{
+	background: #FFF;
+	background: url(images/background.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+}
+/*********************************************************************************/
+/* Fleet                                                                        */
+/*********************************************************************************/
+
+#followfleet
+{
+	padding: 0em 0em 5em 0em;
+	border-top: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+	color: #3E1952;
+	background: url(images/fleetchart.png) no-repeat center; padding top: 10em;
+	background-size: contain;
+	background-color: #D8CFD9;
+	width: 100%;
+	height: 140%;
+
+}
+#wrapperfleet
+{
+	
+
+
+
+
+}
+
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapperr
+{
+	background: url(images/diabond-1.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 10px solid #3E1952;
+
+
+}
+
+
+#header-wrapper
+{
+	background: url(images/diabond-1.jpg) no-repeat center;
+	background-size: cover;
+	border-top: 10px solid #3E1952;
+
+
+}
+
+#header
+{
+	position: relative;
+	padding: 5em 0em;
+	
+	background-size: cover;
+
+}
+
+
+#headerform
+{
+	position: relative;
+	padding: 5em 0em;
+	
+	
+
+}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+#textontop{
+
+	color: white;
+}
+
+	#banner
+{
+	padding: 10em 0em;
+
+	
+}
+
+#banner span
+{
+	display: block;
+	text-transform: uppercase;
+	text-align: right;
+	background: #3E1952;
+	padding: 0.2em 0.2em;
+	font-weight: 700;
+	font-size: 2.5em;
+	color: #FFF;
+	background: -webkit-linear-gradient(left, #D8CFD9 0%, #3E1952 99%);
+	opacity: 0.8;
+}
+
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logotype
+{
+    position: absolute;
+	top: 0;
+	left: -2;
+	
+	background: #3E1952;
+	border-radius: 0px 0px 5px 5px;
+
+}
+
+#logo h1
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 1em 1em;
+	background: #3E1952;
+	border-radius: 0px 0px 5px 5px;
+
+}
+
+#logo a
+{
+	text-decoration: none;
+	color: #FFF;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu ul li
+{
+position: relative;
+
+}
+
+
+#menu ul li ul
+{
+position: absolute;
+display: none;
+padding: 3px 3px 3px 3px;
+
+}
+
+#menu ul li ul li a
+{
+padding: 3px 3px 3px 3px;
+
+}
+
+#menu ul li ul li a:hover
+{
+padding: 3px 3px 3px 3px;
+color:red;
+
+}
+
+
+#menu ul li ul li:hover 
+{
+padding: 10px 0 10px 0;
+
+}
+
+#menu ul li:hover ul
+{
+
+display: block;
+padding-bottom: 22px;
+padding-top: 22px;
+
+
+}
+
+#menu
+{
+	position: absolute;
+	top: 4em;
+	right: 10em;
+	
+}
+
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: inline-block;
+	float: left;
+	text-align: center;
+
+}
+
+#menu li a, #menu li span
+{
+	padding: 1em 1.5em;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.90em;
+	font-weight: 600;
+	background: #D8CFD9;
+	color: #3E1952;
+	
+	border-radius: 5px;
+}
+
+#menu li:hover a, #menu li.active a, #menu li.active span
+{
+	background: #3E1952;
+	border-radius: 5px;
+	color: #D8CFD9;
+
+}
+
+
+#menu .current_page_item a
+{
+
+}
+
+#menu .icon
+{
+
+}
+
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		padding-bottom: 5em;
+	}
+	
+	#page h2
+	{
+		padding-bottom: 1.5em;
+		text-transform: uppercase;
+		font-size: 1.5em;
+	}
+
+
+
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+{
+	background: #3E1952;
+	background-position: center;
+	display: flex;
+	
+
+}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+{
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+#copyright p
+{
+	letter-spacing: 0.20em;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.80em;
+	color: white;
+}
+
+#copyright a
+{
+	text-decoration: none;
+	color: white;
+}
+
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title
+{
+	margin-bottom: 13em;
+	text-transform: uppercase;
+
+}
+
+.title h2
+{
+	font-size: 2.8em;
+	font-weight: 700;
+	padding-bottom: 20px;
+	color:#D8CFD9;
+}
+
+.title .byline
+{
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+
+
+
+	.titledigital
+{
+	margin-bottom: 3em;
+	text-transform: uppercase;
+	color:white;
+	color: #D8CFD9;
+}
+
+.titledigital h2
+{
+	font-size: 2.8em;
+	font-weight: 700;
+	color: #3E1952;
+}
+
+.titledigital .byline
+{
+	font-size: 1.1em;
+	color: white;
+}
+
+	.titlefollow
+{
+	margin-bottom: 2em;
+	text-transform: uppercase;
+}
+
+.titlefollow h2
+{
+	font-size: 2.8em;
+	font-weight: 700;
+	padding-bottom: 20px;
+}
+
+.titlefollow .byline
+{
+	font-size: 1.1em;
+	color: #6F6F6F;
+}
+
+
+/*********************************************************************************/
+/* Work                                                                        */
+/*********************************************************************************/
+
+	#work
+{
+	padding: 5em 5em;
+	text-align: center;
+	color: white;
+
+}
+
+
+
+/*********************************************************************************/
+/* Follow Us                                                                      */
+/*********************************************************************************/
+
+#socialmedia
+{
+font-size: 50px;
+color: #3E1952;
+padding-right: 5px;
+
+
+}
+
+
+#follow
+{
+	padding: 5em 0em 5em 0em;
+	border-top: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+	color: #3E1952;
+	background-color: #D8CFD9;
+	width: 100%;
+
+}
+
+#followdigital
+{
+	padding: 5em 0em 5em 0em;
+	border-top: 1px solid rgba(0,0,0,.1);
+	text-align: center;
+	color: #3E1952;
+	background-color: #D8CFD9 ;
+	width: 100%;
+
+}
+
+ul.style3
+{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	list-style: none;
+	color: #6c6c6c
+}
+
+ul.style3 li
+{
+	padding: 1.6em 0em 0em 0em;
+	margin: 0 0 1em 0;
+}
+
+ul.style3 p
+{
+	margin: 0;
+}
+
+ul.style3 a
+{
+	display: block;
+	text-decoration: none;
+	color: #2D2D2D;
+}
+
+ul.style3 a:hover
+{
+	text-decoration: underline;
+}
+
+ul.style3 h3
+{
+	padding: 1em 0em 5px 0em;
+	text-transform: uppercase;
+	font-size: 1em;
+	font-weight: 300;
+}
+
+ul.style3 .first
+{
+	padding-top: 0;
+	background: none;
+}
+
+ul.style3 .date
+{
+	float: left;
+	position: relative;
+	width: 80px;
+	height: 70px;
+	margin: 0.5em 1.5em 0em 0.5em;
+	padding: 20px 0em 0em 0em;
+	background: #262626;
+	border-radius: 5px;
+	box-shadow: 0px 0px 0px 5px rgba(255,255,255,0.1);
+	line-height: normal;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+	font-size: 1em;
+	font-weight: 400;
+	color: #FFF;
+}
+
+ul.style3 .date:after
+{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 6px;
+}
+
+ul.style3 .date b
+{
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-top: -5px;
+	font-size: 1.8em;
+	font-weight: 700;
+	color: #FFFFFF;
+}
+
+ul.style3 .date a
+{
+	color: #FFFFFF !important;
+}
+
+ul.style3 .date a:hover
+{
+	text-decoration: none;
+}
+
+ul.style4
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style4 li
+{
+	border-top: 1px solid rgba(0,0,0,0.1);
+	line-height: 3em;
+}
+
+ul.style4 a
+{
+	color: #2D2D2D;
+}
+
+ul.style4 .first
+{
+	padding-top: 0px;
+	border-top: none;
+}
+
+/*********************************************************************************/
+/* About page                                                                     */
+/*********************************************************************************/
+
+.description {
+    float:right;
+    width: 40%;  
+    padding: 0; 
+    padding-right: 30px;
+}
+#containerAbout {
+    padding: 10px;
+
+}
+#containerAbout img {
+    width: 50%;
+    padding: 100px;
+}
+.description {
+    float:right;
+    width: 45%;  
+    padding: 20px; 
+}
+#containerAbout h1, #containerAbout p {
+    padding: 20px 20px;
+    text-align: justify;
+}
+#containerAbout h1 {
+    font-size: 90px;
+}
+
+
+
+
+/*********************************************************************************/
+/* clients                                                                   */
+/*********************************************************************************/
+
+#containerclients {
+    padding: 10px;
+
+}
+#containerclients img {
+    width: 90%;
+    padding: 100px;
+}
+.description {
+    float:right;
+    width: 45%;  
+    padding: 35px; 
+}
+#containerclients h1, #containerclients p {
+    padding: 20px 20px;
+    text-align: justify;
+}
+#containerclients h1 {
+    font-size: 90px;
+}
+
+
+/*********************************************************************************/
+/* Construction page                                                                     */
+/*********************************************************************************/
+
+figcaption{
+
+padding-left: 1px;
+
+}
+
+
+.brochure {
+    float:right;
+    width: 50%; 
+
+
+   
+}
+#containerConstruction {
+  padding-left: 200px;
+
+}
+#containerConstruction img {
+    width: 50%;
+
+   
+}
+
+.brochure {
+    
+    width: 50%;  
+    
+}
+#containerConstruction h1, #containerConstruction p {
+    padding: 20px 20px;
+    text-align: justify;
+    max-width: 46%;
+}
+#containerConstruction h1 {
+    font-size: 90px;
+}
+
+@media screen and (max-width: 1200px) {
+  #containerConstruction{
+    font-size: 18pt;
+  }
+}
+
+
+/*********************************************************************************/
+/* Swiper Gallery                                                               */
+/*********************************************************************************/
+#photosspace
+{
+
+	width: 100%;
+	
+}
+
+body 
+{
+
+background: #fff;
+font-family: 'Source Sans Pro', sans-serif
+font-size: 14px;
+color:#000;
+margin: 0;
+padding: 0;
+}
+.swiper-container 
+{
+ width: 40%;
+padding-top: 200px;
+padding-bottom: 50px;
+overflow: visible !important;
+
+}
+.swiper-slide
+ {
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 380px;
+background: white;
+ }
+
+.swiper-slide .imgBx 
+ {
+ 	width: 100%;
+ 	height: 220px;
+ 	overflow: hidden;
+}
+.swiper-slide .imgBx img
+{
+ 	width: 100%;
+ 	
+}
+
+.swiper-slide .details
+{
+ 	box-sizing: border-box;
+ 	font-size: 20px;	
+ 	padding: 20px;
+}
+
+.swiper-slide .details h3
+{
+ 	margin: 0;	
+ 	padding: 0;
+ 	font-size: 20px;
+ 	text-align: center;
+ 	line-height: 20PX;
+ 	color: #3E1952;
+}
+
+.swiper-slide .details h3 span
+{
+ 	
+ 	font-size: 16px;
+ 	color: #fff;
+}
+
+/*********************************************************************************/
+/* Contact Page                                                                      */
+/*********************************************************************************/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/*  */
+
+.containerform {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+/*   background: #4CAF50; */ /* Submit button - dark purple */
+  background: #3E1952 ;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+#contact button[type="submit"]:hover {
+ /*/ /* Submit button - ligther purple when hover */
+  background: #D8CFD9;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid  #D8CFD9;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/*********************************************************************************/
+/* Responsive  TABLET                                                                 */
+/*********************************************************************************/
+
+@media  (max-width: 768px){
+
+	.brochure{
+
+		height: 200px;
+	}
+
+
+	#containerConstruction {
+
+	padding-left: 1px;
+	font-size: 15px;
+}
+
+#containerConstruction img {
+
+	width:70%;
+}
+
+#containerAbout{
+
+	width:100%;
+}
+
+#containerAbout img{
+
+	width: 760px!important;
+	padding-left: 0;
+}
+
+
+.description{
+
+	font-size: 20px;
+	width: 100%;
+	
+}
+
+#containerclients{
+
+	height: 300px;
+}
+
+#containerclients img {
+
+	padding-top: 100px;
+}
+
+
+img {
+margin:0px!important;
+padding:0px!important;
+border:0px!important;
+padding-top: 10px!important;
+position: center;
+}
+
+#followfleet{
+
+	height: 600px;
+}
+
+
+    
+ #header-wrapper
+ {
+width: 100%;
+position: center;
+
+}
+
+#header
+{
+width: 100%;
+}
+
+.container
+{
+width: 100%;
+
+}
+
+#logotype
+{
+width: 40%;
+}
+
+#menu
+{
+width: 100%;
+display: contents;
+object-fit: 100%;
+position: static;
+padding-left: 200px;
+}
+
+#banner
+{
+width: 100%;
+position: relative;
+}
+
+.title
+{
+width: 100%;
+
+}
+
+#photospace
+{
+width: 100%;
+}
+
+#follow
+{
+width: 100%;
+}
+
+#page
+{
+width: 45%;
+text-align: center;
+display: center;
+padding-left: 30px;
+}
+
+}
+/*********************************************************************************/
+/* Responsive  PHONE                                                               */
+/*********************************************************************************/
+
+@media  (max-width: 375px){
+	
+
+
+ #header-wrapper
+ {
+width: 100%;
+padding-right: 0;
+
+}
+
+#header
+{
+width: 100%;
+}
+
+
+
+.container
+{
+width: 100%;
+
+}
+
+
+
+#logotype
+{
+width: 100%;
+
+}
+
+#menu
+{
+display: content;
+font-size: 0.65em;
+object-fit: screen;
+width: 100%;
+
+}
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+
+
+}
+
+
+#banner
+{
+width: 100%;
+}
+
+.title
+{
+width: 100%;
+padding-top: 10px;
+
+
+}
+
+#photospace
+{
+width: 100%;
+}
+
+#follow
+{
+width: 100%;
+}
+
+#page
+{
+width: 100%;
+text-align: center;
+display: center;
+padding-left: 30px;
+}
+
+ h2 span
+
+{
+	display: hidden;
+}
+
+.container 
+{
+	font-size: 10px;
+
+}
+
+#containerclients{
+
+	width: 100%;
+	align-content: center;
+	padding: 100px, 0px, 100px, 0px!important;
+}
+
+#containerclients img {
+
+	width: 360px!important;
+	padding: 50px, 0px, 50px, 0px!important;
+}
+
+#containerAbout{
+
+	width:100%;
+}
+
+#containerAbout img{
+
+	width: 360px!important;
+	padding-left: 0;
+}
+
+#containerConstruction {
+
+	padding-left: 1px;
+	font-size: 10px;
+}
+
+#containerConstruction img {
+
+	width:70%;
+}
+
+img {
+margin:0!important;
+padding:0!important;
+border:0!important;
+}
+
+
+
+	
+.boxA, .boxB, .boxC
+{
+	font-size: 15px;
+}
+
+.swiper-pagination
+{
+	width: 100%;
+
+}
+
+.description{
+
+	font-size: 10px;
+	width: 100%;
+	padding-top: -150px;
+}
+
+
+#followfleet{
+
+	height: 400px;
+}
+
+#work{
+
+	height: 500px;
+}
+
+#containerAbout{
+
+	height: 300px;
+}
+
+
+body 
+{
+
+background: #fff;
+font-family: 'Source Sans Pro', sans-serif
+font-size: 9px;
+color:#000;
+margin: 0;
+padding: 0;
+}
+.swiper-container 
+{
+ width: 40%;
+padding-top: 50px;
+padding-bottom: 50px;
+overflow: visible !important;
+
+}
+.swiper-slide
+ {
+background-position: center;
+background-size: cover;
+width: 100%;
+height: 20px;
+background: white;
+ }
+
+.swiper-slide .imgBx 
+ {
+ 	width: 100%;
+ 	height:70px;
+ 	overflow: hidden;
+}
+.swiper-slide .imgBx img
+{
+ 	width: 100%;
+ 	height: 70px;
+
+ 	
+}
+
+.swiper-slide .details
+{
+ 	box-sizing: content-box;
+ 	font-size: 10px;	
+ 	padding: 15px;
+}
+
+.swiper-slide .details h3
+{
+ 	margin: 0;	
+ 	padding: 0;
+ 	font-size: 15px;
+ 	text-align: center;
+ 	line-height: 18PX;
+ 	color: #3E1952;
+}
+
+.swiper-slide .details h3 span
+{
+ 	
+ 	font-size: 5px;
+ 	color: #fff;
+}
+
+}
+
+
+@media  (max-width: 790px){
+
+
+
+#header-wrapper{
+
+	width: 100%;
+}
+
+
+#menu
+{
+display: content;
+font-size: 0.65em;
+object-fit: screen;
+width: 100%;
+float:right;
+margin:0px!important;
+padding:0px!important;
+border:0px!important;
+padding-top: 10px!important;
+position: center;
+
+}
+#menu ul
+{
+	display: inline-block;
+}
+
+#menu li
+{
+	display: block;
+	float: left;
+	text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media  (max-width: 626px){
+
+
+#logotype
+{
+width: 100%;
+
+}.
+#menu ul li ul li a:hover
+{
+padding: 3px 3px 3px 3px;
+color:red;
+}
+
+@media  (max-width: 770px){
+
+
+#logotype
+{
+width: 100%;
+
+}
+
+}
+
+
+@media  (max-width: 969px){
+
+
+#logotype
+{
+width: 100%;
+
+}
+
+#menu{
+
+	float: right;
+	padding-left: 300px;
+	position: absolute;
+	top: 4em;
+	right: 10em;
+}
+
+}
